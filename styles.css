@@ -125,5 +125,12 @@ body {
   }
 
   #items {
+    width: 50%;
+    height: auto;
     background-color: #E16A54;
+    justify-self: center;
+  }
+
+  #card > #content {
+    justify-self: center;
   }
