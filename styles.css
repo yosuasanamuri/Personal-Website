@@ -118,19 +118,47 @@ body {
 
   .grid-container {
     display: grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 6fr 6fr;
-    padding: 20px 50px 0px;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(6, 16.666%);
     gap: 10px;
+    padding-inline: 50px;
   }
 
-  #items {
-    width: 50%;
-    height: auto;
+  .cards {
+    border-radius: 20px;
     background-color: #E16A54;
-    justify-self: center;
   }
 
-  #card > #content {
-    justify-self: center;
+  #item1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+
+  #item2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+  }
+
+  #item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  #item4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+  }
+
+  .headingText {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0px 10px;
+    font-size: 50px;
   }
