@@ -173,7 +173,6 @@ body {
     width: auto;
     height: 30px;
     padding-top: 2px;
-    
   }
 
   .instagram {
@@ -183,6 +182,7 @@ body {
   }
 
   .social-media {
+    z-index: 100;
     width: 80px;
     border: 1px solid grey;
     border-radius: 20px;
