@@ -1,6 +1,6 @@
 body {
     background-color: #F4D793;
-    overflow: auto;
+    overflow: visible;
   }
 
   .top {
@@ -171,13 +171,22 @@ body {
 
   .github {
     width: auto;
-    height: 40px;
+    height: 30px;
+    padding-top: 2px;
+    
   }
 
   .instagram {
     width: auto;
-    height: 30px
+    height: 30px;
+    padding-top: 2px;
   }
+
   .social-media {
-    justify-content: center;
+    width: 80px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
   }
