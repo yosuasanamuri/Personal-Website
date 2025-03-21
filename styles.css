@@ -204,3 +204,41 @@ body {
     column-gap: 10px;
     background-color: beige;
   }
+
+  .navbars {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    margin: 0;
+  }
+
+  #aboutMe {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 5px 0 5px;
+    border: 1px solid grey;
+  }
+
+  #skillSets {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 5px 0 5px;
+    border: 1px solid grey;
+  }
+
+  #myPortfolios {
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 5px 0 5px;
+    border: 1px solid grey;
+  }
