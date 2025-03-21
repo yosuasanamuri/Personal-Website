@@ -165,7 +165,7 @@ body {
   .headingText {
     display: flex;
     justify-content: center;
-    padding: 200px 0px 10px;
+    padding-top: 360px;
     font-size: 50px;
   }
 
@@ -189,4 +189,5 @@ body {
     display: flex;
     justify-content: space-evenly;
     column-gap: 10px;
+    background-color: beige;
   }
