@@ -82,19 +82,32 @@ body {
   }
   
   .p1 {
+    font-family: "Dosis", sans-serif;
+    font-style: medium;
     font-size: 50px;
-    font-weight: lighter;
   }
   
   .p2 {
     font-size: 40px;
-    font-weight: lighter;
+    font-family: "Dosis", sans-serif;
+    font-style: medium;
   }
   
   h1 {
-    font-size: 100px;
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 200;
+    font-size: 70px;
     margin: 0;
-  
+  }
+
+  .btn1, .btn2 {
+    font-family: "Dosis", sans-serif;
+    font: bold;
+  }
+
+  .text {
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
   }
   
   .aboutMe {
